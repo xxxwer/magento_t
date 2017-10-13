@@ -107,6 +107,7 @@ return array (
     'Magento_Weee' => 1,
     'Magento_CatalogWidget' => 1,
     'Magento_Wishlist' => 1,
+    'Pulsestorm_HelloWorldMVVM' => 1,
     'Shopial_Facebook' => 1,
   ),
 );
