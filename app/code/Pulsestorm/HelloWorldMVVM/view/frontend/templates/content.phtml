@@ -4,3 +4,14 @@
 <h2><?php echo $this->escapeHtml($this->getGoodbyeMessage()); ?></h2>
 
 <h3><?php echo $this->escapeHtml($this->getName()); ?></h3>
+
+<p>
+    打开 developer mode 方便调试 js css
+<a href="/static/frontend/Magento/blank/en_US/Pulsestorm_HelloWorldMVVM/hello.js">引入静态资源 css js</a>
+</p>
+
+<p>
+    只允许前端访问的静态资源， admin端不能访问
+<a href="/static/frontend/Magento/blank/en_US/Pulsestorm_HelloWorldMVVM/hello2.js">frontend hello2.js</a>
+<a href="/static/adminhtml/Magento/blank/en_US/Pulsestorm_HelloWorldMVVM/hello2.js">adminhtml hello2.js</a>
+</p>
