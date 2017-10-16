@@ -26,6 +26,11 @@
                 <Item>/update/vendor/</Item>
                 <Item>/var/cache/</Item>
                 <Item>/var/page_cache/</Item>
+                <Item>/.git/</Item>
+                <Item>/var/view_preprocessed/</Item>
+                <Item>/pub/static/</Item>
+                <Item>/generated/</Item>
+                <Item/>
             </Exclude>
             <TimeSpan Type="None">0</TimeSpan>
             <SizeMin Unit="None">0</SizeMin>
